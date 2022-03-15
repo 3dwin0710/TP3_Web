@@ -23,10 +23,18 @@ class MainWindow(QWidget):
         self.label1 = QLabel("Enter your IP:", self)
         self.text = QLineEdit(self)
         self.text.move(10, 30)
-        self.label2 = QLabel("Answer:", self)
-        self.label2.move(10, 60)
+        self.label2 = QLabel("Enter your api_key:", self)
+        self.text = QLineEdit(self)
+        self.label2.move(0,70)
+        self.text.move(10, 100)  
+        self.label3 = QLabel("Enter your hostname:", self)
+        self.text = QLineEdit(self)
+        self.label3.move(0,130)  
+        self.text.move(10, 150)      
+        self.label4 = QLabel("Answer:", self)
+        self.label4.move(0, 180)
         self.button = QPushButton("Send", self)
-        self.button.move(10, 90)
+        self.button.move(10, 200)
 
         self.button.clicked.connect(self.on_click)
         self.button.pressed.connect(self.on_click)
@@ -41,8 +49,8 @@ class MainWindow(QWidget):
         else:
             res = self.__query(hostname)
             if res:
-                self.label2.setText("Answer%s" % (res["Hello"]))
-                self.label2.adjustSize()
+                self.label4.setText("Answer%s" % (res["Hello"]))
+                self.label4.adjustSize()
                 self.show()
 
     def __query(self, hostname):
