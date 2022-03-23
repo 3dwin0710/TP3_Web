@@ -1,0 +1,27 @@
+Service web : permet notamment de fournir une plateforme commune qui permet à de multiples applications développées en utilisant différent langages de programmation pour communiquer entre elle.
+Permet donc de faire la communication entre applications client et serveur.
+
+Lien source : https://www.lebigdata.fr/services-web-definition
+
+
+Api Rest : 
+
+Une API REST (également appelée API RESTful) est une interface de programmation d’application (pour Api ou Api Web) qui respecte les structures Rest et permet interagir avec les services web Restful.
+Et en tant qu’Api, Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications.
+Lien Source : https://www.redhat.com/fr/topics/api/what-is-a-rest-api
+
+FastApi : 
+FastAPI est un framework web moderne, rapide (haute performance) pour construire des API avec Python 3.6+ basé sur les indices de type standard de Python.
+
+Il required python 3.6
+Caractéristique principale :
+- Rapide
+- Rapide pour coder
+- Peu de bugs
+- Intuitive
+- Facile
+- Court/simple
+- Robuste
+- Basé sur des normes
+
+Lien source : https://fastapi.tiangolo.com/fr/
